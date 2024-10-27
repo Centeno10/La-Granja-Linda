@@ -8,7 +8,7 @@ public class Conexion {
     
     private static final String URL = "jdbc:mysql://localhost:3306/restaurante?serverTimezone=America/Lima";
     private static final String USUARIO = "root";
-    private static final String CONTRASENA = "Stephano";
+    private static final String CONTRASENA = "root";
 
     // Método para establecer una nueva conexión cada vez que se llama
     public static Connection getConexion() {
